@@ -25,7 +25,7 @@ function check() {
     var principal = document.getElementById("principal");
     if (principal.value <= 0) {
         alert("Enter a positive number");
-        principal.focus;
+        principal.focus();
         return false;
     }
     return true;
